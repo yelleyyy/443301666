@@ -13,12 +13,14 @@ body {
     background-color: azure;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0px;
+    width: 100%;
 }
 
 .bodytext {
     margin: 20px;
     position: relative;
     top: 60px;
+    padding-bottom: 80px;
 }
 ul {
     list-style: none;
@@ -38,7 +40,7 @@ a:link {
     text-decoration: none;
 }
 
-img {
+.logo {
     width: 150px;
     margin-left: 20px;
     top: 10px;
@@ -46,12 +48,13 @@ img {
     border-style: solid;
     border-color: blanchedalmond;
     border-radius: 50%;
-
 }
+
 header {
     background-color: rgb(214, 235, 235);
     top: 60px;
     position: relative;
+    width: 100%;
 }
 .title {
     margin-left: 20px;
@@ -60,4 +63,27 @@ header {
     position: relative;
     float: right;
     margin-right: 20px;
+}
+.footerlist {
+    list-style: none;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    padding-left: 40px;
+    float: left;
+    height: 40px;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+}
+.footerlogo {
+    width: 120px;
+    float: right;
+    margin-right: 100px;
+    position: relative;
+    border-radius: 50%;
+    top: -110px;
 }

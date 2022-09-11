@@ -1,63 +1,11 @@
-.flexcontainer {
-    height: 60px;
-    width: 100%;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    z-index: 10;
-    background-color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-body {
-    background-color: azure;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0px;
-}
-
-.bodytext {
-    margin: 20px;
-    position: relative;
-    top: 60px;
-}
-ul {
-    list-style: none;
+.creative {
+    list-style: disc;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 90%;
+    width: 100%;
 }
-
-li:hover {
-    background-color: rgb(214, 235, 235);
-    width: max-content;
-    height: 50%;
-}
-a:link {
-    color: black;
-    text-decoration: none;
-}
-
-img {
-    width: 150px;
-    margin-left: 20px;
-    top: 10px;
-    position: relative;
-    border-style: solid;
-    border-color: blanchedalmond;
-    border-radius: 50%;
-
-}
-header {
-    background-color: rgb(214, 235, 235);
-    top: 60px;
-    position: relative;
-}
-.title {
-    margin-left: 20px;
-}
-.search {
-    position: relative;
-    float: right;
-    margin-right: 20px;
+.journal {
+    width: 25%;
+    padding-top: 10px;
 }
