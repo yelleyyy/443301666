@@ -19,6 +19,7 @@ body {
     margin: 20px;
     position: relative;
     top: 60px;
+    padding-bottom: 70px;
 }
 ul {
     list-style: none;
@@ -38,14 +39,15 @@ a:link {
     text-decoration: none;
 }
 
-img {
+.logo {
     width: 150px;
-    margin-left: 20px;
+    margin-left: 10px;
     top: 10px;
     position: relative;
     border-style: solid;
     border-color: blanchedalmond;
     border-radius: 50%;
+
 
 }
 header {
@@ -60,4 +62,30 @@ header {
     position: relative;
     float: right;
     margin-right: 20px;
+}
+
+.meditation {
+    width: 400px;
+    position: relative;
+    margin-right: 10px;
+    float: right;
+    border-radius: 20%;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.footerlist {
+    list-style: none;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    padding-left: 40px;
+    float: left;
+    height: 40px;
+    width: 100%;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
